@@ -12,6 +12,7 @@ with p1:
     while True:
 
         att = st.number_input("Elige un numero: ")
+        att = int(att)
         if att < num:
             st.write("Tu num es menor")
         elif att > num:
