@@ -12,7 +12,12 @@ num = random.randint(1, 100)
 with p1:
     while True:
 
-        att = int(st.number_input("Numero: "))
+        att = st.number_input(
+        "Numero:",
+        min_value=1,
+        max_value=100,
+        step=1
+        )
         if att < num:
             st.write("Tu num es menor")
         elif att > num:
