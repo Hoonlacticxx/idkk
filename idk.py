@@ -8,6 +8,7 @@ windows = ["1", "2", "3"]
 p1, p2, p3 = st.tabs(windows)
 
 num = random.randint(1, 100)
+num = int(num)
 
 with p1:
     while True:
