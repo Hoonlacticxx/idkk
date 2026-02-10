@@ -15,7 +15,9 @@ def number_input(
     on_change: WidgetCallback | None = None,
     args: WidgetArgs | None = None,
     kwargs: WidgetKwargs | None = None,
+)
 windows = ["1", "2", "3"]
+
 p1, p2, p3 = st.tabs(windows)
 
 num = random.randint(1, 100)
