@@ -15,8 +15,11 @@ with p1:
 
         att = st.number_input(
         "Numero:",
+        min_value = 1,
+        max_value = 100,
         step=1
         )
+        att=int(att)
         if att < num:
             st.write("Tu num es menor")
         elif att > num:
