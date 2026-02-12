@@ -15,8 +15,6 @@ with p1:
 
         att = st.number_input(
         "Numero:",
-        min_value=1,
-        max_value=100,
         step=1
         )
         if att < num:
