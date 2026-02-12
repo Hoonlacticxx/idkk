@@ -17,8 +17,8 @@ with p1:
         "Numero:",
         min_value = 1,
         max_value = 100,
-        step=1
-        key="input_num"
+        step=1,
+        key="input_num",
         )
         if st.button("Comprobar"):
          if att < st.session_state.num:
